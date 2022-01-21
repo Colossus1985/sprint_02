@@ -1,0 +1,190 @@
+body {
+  max-width: 775px;
+  max-height: 870px;
+  background: black;
+  margin: 0 auto;
+  font-family: Dongle;
+  font-weight: lighter;
+  line-height: 1;
+  word-spacing: 1px;
+}
+p {
+  font-size: 1rem;
+}
+/*###---Header---##################################*/
+
+#header_container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(243, 142, 88, 1);
+}
+#header_mainbar {
+  display: flex;
+  justify-content: space-between;
+}
+#logo_lander {
+  height: 2.4rem;
+  width: 5rem;
+}
+#navbar li {
+  display: inline-block;
+  justify-content: space-between;
+}
+.nav_href a {
+  text-decoration: none;
+  color: white;
+}
+#connexion {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3.5rem;
+}
+#trial {
+  margin-top: 1rem;
+  margin-right: 0.3rem;
+  background: black;
+  border: black solid 2px;
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 8rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+#login {
+  margin-top: 1rem;
+  background: rgba(243, 142, 88, 1);
+  border: white 2px solid;
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+#title_main {
+  text-align: center;
+}
+#title {
+  margin-bottom: 0rem;
+  color: white;
+  font-size: 4.8rem;
+  font-weight: 300;
+  height: 4rem;
+}
+#sec_title {
+  margin-top: 0rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*###---Body---##################################*/
+
+#main_container {
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
+}
+
+#reach_team {
+  display: flex;
+  flex-direction: row;
+}
+#form_connect {
+  display: flex;
+  flex-direction: row;
+}
+
+#reach_us {
+  flex: 2;
+}
+#formulaire {
+  flex: 2;
+}
+#team {
+  flex: 2;
+  margin-left: 1.5rem;
+}
+#conntections {
+  flex: 2;
+  margin-left: 1.5rem;
+}
+
+.infos {
+  width: 94%;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.8rem;
+  font-size: 0.7rem;
+  border: 0.08rem solid grey;
+  border-radius: 0.4rem;
+}
+#txt {
+  height: 5rem;
+  resize: none;
+}
+
+#div_btn_submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#submit_btn {
+  background: rgb(243, 142, 88);
+  color: white;
+  border: white 2px solid;
+  border-radius: 0.4rem;
+  height: 2.3rem;
+  width: 5.8rem;
+  color: white;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.third_title {
+  color: rgb(85, 182, 226);
+}
+.social_link {
+  color: rgb(218, 158, 132);
+  text-decoration: none;
+}
+
+/*###---Footer---##################################*/
+
+footer {
+  background: rgba(64, 64, 64, 1);
+  display: flex;
+  flex-direction: row;
+}
+.footer_title {
+  color: rgba(253, 253, 253, 1);
+  margin-top: 0rem;
+}
+.footer_list {
+  list-style-type: none;
+}
+.footer_hrefs {
+  color: rgba(172, 172, 172, 1);
+  text-decoration: none;
+}
+
+#sec_footer {
+  background: rgba(51, 51, 51, 1);
+}
+#sec_footer_container {
+  padding-left: 4rem;
+}
+.para_sec_footer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
