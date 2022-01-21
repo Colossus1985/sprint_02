@@ -1,0 +1,48 @@
+
+  383  cd Desktop/
+  384  mkdir lander
+  385  cd lander
+  386  mkdir css
+  387  mkdir html
+  388  mkdir images
+  389  git remote add origin https://github.com/Colossus1985/sprint_02.git
+  390  git init
+  391  git remote add origin https://github.com/Colossus1985/sprint_02.git
+  392  git branch -M main
+  393  git push -u origin main
+  394  git push -u origin master
+  395  cd css
+  396  touch lander_css_pc.css
+  397  touch lander_css_mobile.css
+  398  ls
+  399  cs ..
+  400  cd ..
+  401  ls
+  402  cd html/
+  403  touch index_lander.html
+  404  cd ..
+  405  ls
+  406  cd images/
+  407  touch logo.txt
+  408  cd ..
+  409  cd
+  410  cd Desktop/
+  411  cd lander/
+  412  ls
+  413  ll
+  414  git push -u origin main
+  415  git commit
+  416  git add css/
+  417  git add html/
+  418  git add images/
+  419  git status
+  420  git push
+  421  git push -u origin main
+  422  git push --set-upstream origin main
+  423  git commit
+  424  git push -u origin main
+  425  cd
+  426  cd Desktop/
+  427  touch log_history_Lander_init
+  428  history
+  429  history > log_history_Lander_init.txt
