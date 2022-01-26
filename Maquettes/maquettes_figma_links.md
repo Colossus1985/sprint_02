@@ -1,6 +1,4 @@
-Sprint_02_maquette_pc_high
-
-[https://www.figma.com/file/EiZK88KrwMM1PDbODVvqSL/Sprint_02_maquette_high?node-id=0%3A1]
+[Sprint_02_maquette_pc_high](https://www.figma.com/file/EiZK88KrwMM1PDbODVvqSL/Sprint_02_maquette_high?node-id=0%3A1)
 
 ###########################################################################################
 
