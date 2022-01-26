@@ -1,7 +1,5 @@
 body {
-  max-width: 775px;
-  max-height: 870px;
-  background: black;
+
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
@@ -12,10 +10,15 @@ p {
 }
 /*###---Header---##################################*/
 
+header {
+  background: rgba(243, 142, 88, 1);
+}
+
 #header_container {
   display: flex;
   flex-direction: column;
-  background: rgba(243, 142, 88, 1);
+  width: 60%;
+  margin: auto;
 }
 #header_mainbar {
   display: flex;
@@ -24,12 +27,11 @@ p {
 #logo_lander {
   height: 2.8rem;
   width: 6.2rem;
-  margin-left: 3rem;
   margin-top: 0.03rem;
 }
 
 #navbar {
-  padding-left: 0.5rem;
+ 
   margin-top: 0.8rem;
 }
 #navbar li {
@@ -40,20 +42,44 @@ p {
   vertical-align: middle;
   margin-left: 0rem;
   margin-right: 0.1rem;
+  height: 1.5rem;
+  vertical-align: middle;
+
 }
 .nav_href a {
   text-decoration: none;
   color: white;
   font-size: 0.55rem;
   height: 1.5rem;
+
 }
+
+.nav_href:hover {
+background: rgb(196, 117, 74);
+
+
+
+
+}
+
+
+
 #connexion {
   flex: 2;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: 3.5rem;
+  padding-right: 20%;
+  
 }
+
+.social_link:hover {
+color: rgb(94, 47, 155);
+
+
+}
+
+
 #trial {
   margin-top: 0.8rem;
   margin-right: 0.3rem;
@@ -66,6 +92,15 @@ p {
   text-decoration: none;
   font-size: 0.45rem;
 }
+
+#trial:hover{
+background: cornflowerblue;
+
+}
+
+
+
+
 #login {
   margin-top: 0.8rem;
   background: rgba(243, 142, 88, 1);
@@ -76,6 +111,11 @@ p {
   color: white;
   text-decoration: none;
   font-size: 0.45rem;
+}
+
+#login:hover {
+background: crimson;
+
 }
 
 #title_main {
@@ -92,6 +132,7 @@ p {
   margin-top: 0rem;
   margin-bottom: 3.1rem;
   font-size: 0.6rem;
+  color: white;
 }
 
 /*###---Body---##################################*/
@@ -100,11 +141,12 @@ p {
   background: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-  padding-top: 1.55rem;
-  padding-bottom: 1.9rem;
-}
+  width: 60%;
+  margin: auto;
+
+  
+  
+} 
 
 #reach_team {
   display: flex;
@@ -118,6 +160,8 @@ p {
 #reach_us {
   flex: 2;
 }
+
+
 
 #formulaire {
   flex: 2;
@@ -166,6 +210,15 @@ p {
   color: white;
   text-decoration: none;
   font-size: 0.5rem;
+  transition: 02s;
+}
+
+#submit_btn:hover {
+  background: rgb(211, 124, 77);
+  box-shadow: 0.1rem 0.1rem 0.1rem rgb(165, 157, 157); 
+  font-size: 60%;
+  
+
 }
 
 .third_title {
@@ -218,7 +271,6 @@ p {
 footer {
   background: rgba(64, 64, 64, 1);
   display: flex;
-  flex-direction: row;
   font-size: 0.5rem;
   line-height: 1.6;
   padding-top: 1rem;
@@ -235,6 +287,12 @@ footer {
   color: rgba(172, 172, 172, 1);
   text-decoration: none;
 }
+
+.footer_hrefs:hover {
+color: cyan;
+
+}
+
 .footer_titles {
   color: white;
 }
@@ -267,6 +325,12 @@ footer {
   margin-bottom: 1.2rem;
 }
 
+#create_landing_page_btn:hover{
+background:  rgb(28, 8, 65);
+
+
+}
+
 #split_com-tuned {
   display: flex;
   flex-direction: column;
@@ -282,6 +346,16 @@ footer {
   margin-right: 0.1rem;
   margin-top: 0.2rem;
 }
+
+.img_social:hover{
+width: 1rem;
+height: 1rem;
+margin-right: -0.08rem;
+margin-top: 0.02rem;
+
+}
+
+
 #ref_fb {
   margin-left: -0.2rem;
 }
@@ -305,4 +379,24 @@ footer {
 }
 .para_sec_footer {
   color: rgba(172, 172, 172, 1);
+
+}
+
+
+
+
+#founter_container{
+  display: flex;
+  margin: auto;
+
+}
+
+#sec_footer_container {
+display: flex;
+margin: auto;
+
+}
+
+#privacy:hover {
+  color: aqua;
 }
