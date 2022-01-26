@@ -6,12 +6,12 @@ Sprint_02_maquette_pc_high
 
 Sprint_02_maquette_pc_low
 
-https://www.figma.com/file/2AMkCVjmulhWfyTPMSkI1s/Sprint_02_maquette_pc_low
+[https://www.figma.com/file/2AMkCVjmulhWfyTPMSkI1s/Sprint_02_maquette_pc_low]
 
 ###########################################################################################
 
 Sprint_02_maquette_mobile_low
 
-https://www.figma.com/file/FEpvRSYaeTndd5QSrjhu8U/Sprint_02_maquette_mobile_low
+[https://www.figma.com/file/FEpvRSYaeTndd5QSrjhu8U/Sprint_02_maquette_mobile_low]
 
 ###########################################################################################
