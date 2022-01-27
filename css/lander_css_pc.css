@@ -182,7 +182,7 @@
   }
 
   .infos {
-    width: 94%;
+    width: 97%;
     height: 1.3rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -306,15 +306,9 @@
     color: white;
   }
 
-  #sec_footer {
-    background: rgba(51, 51, 51, 1);
-    padding: 0rem;
-    line-height: 1.5;
-  }
   #sec_footer_container {
-    padding-left: 2.3rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    background: rgba(51, 51, 51, 1);
+    margin: auto;
   }
   .para_sec_footer {
     margin-top: 0.2rem;
@@ -398,6 +392,8 @@
   #sec_footer_container {
   display: flex;
   margin: auto;
+  width: 100%;
+  padding-left: 20%;
   }
   #privacy:hover {
     color: aqua;
