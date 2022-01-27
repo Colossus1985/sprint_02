@@ -1,5 +1,4 @@
 body {
-
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
@@ -12,77 +11,67 @@ p {
 
 header {
   background: rgba(243, 142, 88, 1);
+  padding-bottom: 0.7rem;
 }
 
 #header_container {
   display: flex;
-  flex-direction: column;
-  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
   margin: auto;
 }
 #header_mainbar {
   display: flex;
-  justify-content: space-between;
+  flex: 2;
+  flex-direction: column;
+}
+#menu {
+  flex: 2;
+  display: flex;
+  margin-top: -1rem;
 }
 #logo_lander {
+  flex: 2;
   height: 2.8rem;
   width: 6.2rem;
   margin-top: 0.03rem;
+  margin-left: 2rem;
 }
-
 #navbar {
-
-  margin-top: 0.8rem;
+  padding-left: 0rem;
 }
 #navbar li {
-  display: inline-block;
+  display: block;
   width: 4rem;
   height: 1.5rem;
   text-align: center;
-  vertical-align: middle;
-  margin-left: 0rem;
-  margin-right: 0.1rem;
   height: 1.5rem;
-  vertical-align: middle;
   border: transparent 1px solid;
   border-radius: 0.3rem;
   transition: all 0.2s;
-
-
 }
 .nav_href a {
   text-decoration: none;
   color: white;
   font-size: 0.55rem;
   height: 1.5rem;
-
 }
 
 .nav_href:hover {
-background: rgb(196, 117, 74);
-
-
-
-
+  background: rgb(196, 117, 74);
 }
 
-
-
 #connexion {
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 20%;
-  
+  padding-right: 2%;
 }
 
 .social_link:hover {
-color: rgb(94, 47, 155);
-
-
+  color: rgb(94, 47, 155);
 }
-
 
 #trial {
   margin-top: 0.8rem;
@@ -98,14 +87,10 @@ color: rgb(94, 47, 155);
   transition: all 0.2s;
 }
 
-#trial:hover{
-background: cornflowerblue;
-box-shadow: 0.05rem 0.05rem 0.05rem rgb(14, 13, 13);
-
+#trial:hover {
+  background: cornflowerblue;
+  box-shadow: 0.05rem 0.05rem 0.05rem rgb(14, 13, 13);
 }
-
-
-
 
 #login {
   margin-top: 0.8rem;
@@ -121,13 +106,13 @@ box-shadow: 0.05rem 0.05rem 0.05rem rgb(14, 13, 13);
 }
 
 #login:hover {
-background: rgb(47, 68, 35);
-box-shadow: 0.05rem 0.05rem 0.05rem black;
-
+  background: rgb(47, 68, 35);
+  box-shadow: 0.05rem 0.05rem 0.05rem black;
 }
 
 #title_main {
-  margin-top: 3.35rem;
+  margin-top: -6rem;
+  margin-left: 3rem;
   text-align: center;
 }
 #title {
@@ -137,8 +122,8 @@ box-shadow: 0.05rem 0.05rem 0.05rem black;
   font-weight: 900;
 }
 #sec_title {
-  margin-top: 0rem;
-  margin-bottom: 3.1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 0.6rem;
   color: rgb(12, 12, 12);
 }
@@ -151,14 +136,10 @@ box-shadow: 0.05rem 0.05rem 0.05rem black;
   flex-direction: column;
   width: 60%;
   margin: auto;
-
-  
-  
-} 
+}
 
 #reach_team {
   display: flex;
-  flex-direction: row;
 }
 #form_connect {
   display: flex;
@@ -168,8 +149,6 @@ box-shadow: 0.05rem 0.05rem 0.05rem black;
 #reach_us {
   flex: 2;
 }
-
-
 
 #formulaire {
   flex: 2;
@@ -223,10 +202,8 @@ box-shadow: 0.05rem 0.05rem 0.05rem black;
 
 #submit_btn:hover {
   background: rgb(211, 124, 77);
-  box-shadow: 0.1rem 0.1rem 0.1rem rgb(165, 157, 157); 
+  box-shadow: 0.1rem 0.1rem 0.1rem rgb(165, 157, 157);
   font-size: 60%;
-  
-
 }
 
 .third_title {
@@ -298,8 +275,7 @@ footer {
 }
 
 .footer_hrefs:hover {
-color: cyan;
-
+  color: cyan;
 }
 
 .footer_titles {
@@ -329,13 +305,12 @@ color: cyan;
   transition: all 0.2s;
 }
 
-
-#create_landing_page_btn:hover{
-background:  rgb(0, 153, 153);
-box-shadow: 0.1rem 0.1rem 0.1rem rgb(248, 246, 246);
-color: rgb(15, 15, 15);
-font-size: 0.45rem;
-text-shadow: 0.05rem 0.05rem 0.05rem black;
+#create_landing_page_btn:hover {
+  background: rgb(0, 153, 153);
+  box-shadow: 0.1rem 0.1rem 0.1rem rgb(248, 246, 246);
+  color: rgb(15, 15, 15);
+  font-size: 0.45rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
 }
 #split_com-tuned {
   display: flex;
@@ -352,12 +327,11 @@ text-shadow: 0.05rem 0.05rem 0.05rem black;
   margin-right: 0.1rem;
   margin-top: 0.2rem;
 }
-.img_social:hover{
-width: 1rem;
-height: 1rem;
-margin-right: -0.08rem;
-margin-top: 0.02rem;
-
+.img_social:hover {
+  width: 1rem;
+  height: 1rem;
+  margin-right: -0.08rem;
+  margin-top: 0.02rem;
 }
 #ref_fb {
   margin-left: -0.2rem;
@@ -382,18 +356,16 @@ margin-top: 0.02rem;
 }
 .para_sec_footer {
   color: rgba(172, 172, 172, 1);
-
 }
-#founter_container{
+#founter_container {
   display: flex;
   margin: auto;
-
 }
 #sec_footer_container {
-display: flex;
-margin: auto;
-width: 100%;
-padding-left: 20%;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding-left: 20%;
 }
 #privacy:hover {
   color: aqua;
