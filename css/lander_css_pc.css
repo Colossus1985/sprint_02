@@ -260,6 +260,7 @@ footer {
 }
 #footer_maincontainer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: auto;
   width: 60%;

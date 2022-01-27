@@ -250,18 +250,18 @@ header {
 
 footer {
   background: rgba(64, 64, 64, 1);
+  display: flex;
+  flex-direction: column;
   font-size: 0.5rem;
   line-height: 1.6;
   padding-top: 1rem;
-  padding-bottom: 0.4rem;
 }
-footer li {
-  width: 7rem;
-  margin-right: 0rem;
-}
-
-#footer_container {
+#footer_maincontainer {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  width: 60%;
 }
 .footer_title {
   color: rgba(253, 253, 253, 1);
@@ -282,24 +282,36 @@ footer li {
 .footer_titles {
   color: white;
 }
+#footer_about_lander_links {
+  padding-left: 0rem;
+}
+.para_sec_footer {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+#create_landing_page_btn {
+  background: rgba(9, 9, 54, 0.836);
+  color: rgb(213, 224, 230);
+  border: transparent 1px solid;
+  border-radius: 0.3rem;
+  width: 7.5rem;
+  height: 2.35rem;
+  font-size: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  transition: all 0.2s;
+}
 
-#about_lander {
-  flex: 2;
-}
-#help {
-  flex: 2;
-}
-#resources {
-  flex: 2;
-}
-#landing_pages {
-  flex: 2;
-}
-#split_trylander_creatlander {
-  flex: 2;
+#create_landing_page_btn:hover {
+  background: rgb(0, 153, 153);
+  box-shadow: 0.1rem 0.1rem 0.1rem rgb(248, 246, 246);
+  color: rgb(15, 15, 15);
+  font-size: 0.45rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
 }
 #split_com-tuned {
-  flex: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -337,45 +349,23 @@ footer li {
   margin: 0rem;
   line-height: 1.5;
 }
-#create_landing_page_btn:hover {
-  background: rgb(0, 153, 153);
-  box-shadow: 0.1rem 0.1rem 0.1rem rgb(248, 246, 246);
-  color: rgb(15, 15, 15);
-  font-size: 0.45rem;
-  text-shadow: 0.05rem 0.05rem 0.05rem black;
-}
-#create_landing_page_btn {
-  background: rgba(9, 9, 54, 0.836);
-  color: rgb(213, 224, 230);
-  border: transparent 1px solid;
-  border-radius: 0.3rem;
-  width: 7.5rem;
-  height: 2.35rem;
-  font-size: 0.4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  line-height: 1.5;
-  margin-bottom: 1.2rem;
-  transition: all 0.2s;
-}
-
-#sec_footer_container {
-  background: rgba(51, 51, 51, 1);
-  margin: auto;
-  display: flex;
-  width: 100%;
-  padding-left: 20%;
-}
-.para_sec_footer {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
-}
 #privacy {
   color: rgb(180, 69, 49);
   text-decoration: none;
 }
 .para_sec_footer {
   color: rgba(172, 172, 172, 1);
+  padding-left: 20%;
+}
+#founter_container {
+  display: flex;
+  margin: auto;
+  padding-left: 20%;
+}
+#sec_footer_container {
+  background: rgba(51, 51, 51, 1);
+  display: flex;
+  width: 100%;
 }
 #privacy:hover {
   color: aqua;
